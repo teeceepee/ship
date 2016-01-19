@@ -48,6 +48,8 @@ module.exports.routes = {
 
   '/foo': {
     view: 'foo'
-  }
+  },
+
+  'get /data/foo': 'DataController.foo',
 
 };
